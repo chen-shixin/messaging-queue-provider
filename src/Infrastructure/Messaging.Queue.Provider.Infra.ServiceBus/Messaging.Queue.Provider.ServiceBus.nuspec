@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+    <metadata>
+        <id>Messaging.Queue.Provider.ServiceBus</id>
+        <version>1.0.0.3</version>
+        <title>Messaging Queue Provider Service Bus</title>
+        <authors>Bruno Brandes</authors>
+        <owners>Bruno Brandes</owners>
+        <licenseUrl>https://github.com/brunobrandes/messaging-queue-provider</licenseUrl>
+        <projectUrl>https://github.com/brunobrandes/messaging-queue-provider</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>NET application that sends and receives messages in Service Buz.</description>
+        <releaseNotes>Service Bus Provider</releaseNotes>
+        <language>pt-BR</language>
+        <dependencies>
+            <group targetFramework=".NETFramework4.5.1">
+                <dependency id="Newtonsoft.Json" version="8.0.3" />
+                <dependency id="Microsoft.WindowsAzure.ConfigurationManager" version="3.2.3" />
+                <dependency id="WindowsAzure.ServiceBus" version="3.4.3" />
+                <dependency id="Messaging.Queue.Provider" version="2.0.0.0" />
+            </group>
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="bin\Release\Messaging.Queue.Provider.Infra.ServiceBus.dll" target="lib\net451\Messaging.Queue.Provider.Infra.ServiceBus.dll" />
+        <file src="bin\Release\Messaging.Queue.Provider.Infra.ServiceBus.pdb" target="lib\net451\Messaging.Queue.Provider.Infra.ServiceBus.pdb" />
+    </files>
+</package>

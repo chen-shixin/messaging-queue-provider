@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+    <metadata>
+        <id>Messaging.Queue.Provider</id>
+        <version>2.0.0.0</version>
+        <title>Messaging Queue Provider</title>
+        <authors>Bruno Brandes</authors>
+        <owners>Bruno Brandes</owners>
+        <licenseUrl>https://github.com/brunobrandes/messaging-queue-provider</licenseUrl>
+        <projectUrl>https://github.com/brunobrandes/messaging-queue-provider</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>NET application that sends and receives messages to and from queue services</description>
+        <releaseNotes>This version remove infrastructure providers dependecy</releaseNotes>
+        <language>pt-BR</language>
+        <dependencies>
+            <group targetFramework=".NETFramework4.5.1">
+                <dependency id="Newtonsoft.Json" version="8.0.3" />
+            </group>
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="Domain\Messaging.Queue.Provider.Domain.Enum\bin\Release\Messaging.Queue.Provider.Domain.Enum.dll" target="lib\net451\Messaging.Queue.Provider.Domain.Enum.dll" />
+        <file src="Domain\Messaging.Queue.Provider.Domain.Enum\bin\Release\Messaging.Queue.Provider.Domain.Enum.pdb" target="lib\net451\Messaging.Queue.Provider.Domain.Enum.pdb" />
+        <file src="Domain\Messaging.Queue.Provider.Domain.Service\bin\Release\Messaging.Queue.Provider.Domain.Service.dll" target="lib\net451\Messaging.Queue.Provider.Domain.Service.dll" />
+        <file src="Domain\Messaging.Queue.Provider.Domain.Service\bin\Release\Messaging.Queue.Provider.Domain.Service.pdb" target="lib\net451\Messaging.Queue.Provider.Domain.Service.pdb" />
+        <file src="Infrastructure\Messaging.Queue.Provider.Infra\bin\Release\Messaging.Queue.Provider.Infra.dll" target="lib\net451\Messaging.Queue.Provider.Infra.dll" />
+        <file src="Infrastructure\Messaging.Queue.Provider.Infra\bin\Release\Messaging.Queue.Provider.Infra.pdb" target="lib\net451\Messaging.Queue.Provider.Infra.pdb" />
+    </files>
+</package>
